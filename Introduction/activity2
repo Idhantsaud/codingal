@@ -1,0 +1,6 @@
+a = 5 
+x = "John"
+print(a)
+print(x)
+name = input("Enter your name: ")
+print("\nhello ",name,"\nWelcome to codingal")
