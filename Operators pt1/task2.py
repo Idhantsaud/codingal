@@ -1,4 +1,4 @@
-a = int(input("Enter the amount"))
+a = int(input("Enter the amount: "))
 note_100 = a//100
 note_50 = (a%100)//50
 note_10 = ((a%100)%50)//10
