@@ -1,11 +1,11 @@
-temperature = int(input("Enter the temperature in celcius:")) 
-if temperature < 0 > temperature:
+temp = int(input("Enter the temperature in celcius: ")) 
+if temp > 0 and temp < 5:
     print("Wear something warm today it's very cold ")
-elif temperature < 5 > temperature:
+elif temp > 5  and temp < 15:
     print("It's still cold but you might not need a big jacket")
-elif temperature < 15 > temperature:
+elif temp > 15 and temp < 25:
     print("It's not very cold but you might need a light jacket")
-elif temperature > 25:
+elif temp > 25 and temp < 30:
     print("Very warm today wear something light")
 else:
     print("Go for a swim it's too hot today")
