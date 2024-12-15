@@ -1,0 +1,17 @@
+import turtle 
+
+turtle.shape('turtle')
+turtle.speed(5)
+
+def draw_square(size):
+    for i in range(4):
+        turtle.forward(size)
+        turtle.right(90)
+
+draw_square(100)
+
+turtle.penup()
+turtle.backward(200)
+turtle.pendown()
+
+draw_square(100)
