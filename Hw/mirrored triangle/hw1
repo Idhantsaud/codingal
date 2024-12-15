@@ -1,0 +1,14 @@
+import turtle
+
+def draw_triangle(size, direction):
+    for i in range(3):
+        if i == 0:
+            turtle.forward(size)
+        elif i == 1:
+            turtle.right(90)
+            turtle.forward(size)
+        else:
+            turtle.right(135)
+            turtle.forward(size * 1.414) 
+draw_triangle(100, 'left')
+
