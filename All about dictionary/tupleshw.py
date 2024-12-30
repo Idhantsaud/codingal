@@ -9,3 +9,4 @@ product2 = 1
 for num in tup2:
     product2 *= num
 print("Product of values in tup2:", product2)
+ 
